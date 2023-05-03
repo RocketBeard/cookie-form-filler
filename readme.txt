@@ -1,2 +1,3 @@
-hiddenFieldSelector.js : A script to pass the contents of a cookie "campaign url" to all hidden form fields containing a set value "defaultValue"
-iFramehiddenFieldSelector.js : Works the same as hiddenFieldSelector but searches within the page's iFrames. For use when embedding a form from elsehwere.
+These scripts pass data from a saved cookie "campaign_url" in this case to any hidden form field on the page that contains the value "defaultValue".
+
+iFrameHiddenFIeldSelector specifically looks for fields within iFrames for when you are embedding your form from elsehwere (as long as it's on the same domain)
